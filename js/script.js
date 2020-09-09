@@ -1,7 +1,6 @@
 function accion(){
     event.preventDefault();//Que el link no cambie
     const id = event.currentTarget.getAttribute('href').substring(1);
-    console.log(id);
 
     const infos = document.querySelectorAll('.tabs-content-item');
 
